@@ -43,6 +43,7 @@ public class bht3 {
         for (Employee emp : employees) {
             System.out.println(emp);
         }
+        System.out.println();
 
         //Sort by name(ascending)
         Collections.sort(employees, new Comparator<Employee>(){
@@ -56,5 +57,6 @@ public class bht3 {
         for (Employee emp : employees) {
             System.out.println(emp);
         }
+        System.out.println();
     }
 }
